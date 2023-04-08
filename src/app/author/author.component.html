@@ -1,0 +1,155 @@
+<section class="page-header section-sm">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="section-title h2 mb-3">
+            <span>My Account</span>
+          </h1>
+          <ul class="list-inline breadcrumb-menu mb-3">
+            <li class="list-inline-item"><a href="index-2.html"><i class="ti ti-home"></i>  <span>Home</span></a></li>
+            <li class="list-inline-item">• &nbsp; <a href="about.html"><span>My Account</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="row g-4 g-lg-5 text-center text-lg-start justify-content-center justify-content-lg-start">
+            
+            <div class="col-lg-9 col-md-12">
+              <p class="mb-2"><span class="fw-bold text-black"></span></p>
+              <h1 class="h3 text-dark mb-3">{{author.name + ' ' + author.lasname}}</h1>
+              <div class="content">
+                <p>{{author.about}}</p>
+                
+                <button class="btn btn-dark"  routerLink="/create">Create New Article</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <div class="container">
+
+    <div class="row gy-5 gx-4 g-xl-5">
+      <div class="col-lg-6">
+        <article class="card post-card h-100 border-0 bg-transparent">
+          <div class="card-body">
+            <a class="d-block" [routerLink]="['/article' , '1']" >
+              <div class="post-image position-relative">
+                <img class="w-100 h-auto rounded" src="assets/assets/images/blog/blog1.jpg" alt="The AGI hype train is running out of steam" width="970" height="500">
+              </div>
+            </a>
+        
+            
+              <h3 class="mb-3 post-title">
+                M'saken City
+              </h3>
+            
+            <p>M'saken was founded at the beginning of the 8th century of the Hejire by (Shorfas) descendants of the prophet. Their ancestors migrated from Hijaz to Magreb in the period of the Idrissian dynasty.</p>
+          </div>
+          <div class="card-footer border-top-0 bg-transparent p-0">
+            <ul class="card-meta list-inline">
+              
+              <li class="list-inline-item mt-2">
+                <ul class="card-meta-tag list-inline">
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-6">
+        <article class="card post-card h-100 border-0 bg-transparent">
+          <div class="card-body">
+            <a class="d-block" [routerLink]="['/article' , '2']">
+              <div class="post-image position-relative">
+                <img class="w-100 h-auto rounded" src="assets/assets/images/blog/blog2.jpg" alt="Creating an object that travels at 1% the speed of light?" width="970" height="500">
+              </div>
+            </a>
+        
+          
+              <h3 class="mb-3 post-title">
+                The genesis of M'saken
+              </h3>
+         
+            <p>The city would have been founded at the beginning of the VIII th century of the Hegira by a group of descendants of Hussein ibn Ali (grandson of the Prophet Muhammad (sws)).</p>
+          </div>
+          <div class="card-footer border-top-0 bg-transparent p-0">
+            <ul class="card-meta list-inline">
+             
+              
+              <li class="list-inline-item mt-2">
+               
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-6">
+        <article class="card post-card h-100 border-0 bg-transparent">
+          <div class="card-body">
+            <a class="d-block" [routerLink]="['/article' , '3']">
+              <div class="post-image position-relative">
+                <img class="w-100 h-auto rounded" src="assets/assets/images/blog/blog3.jpg" alt="Everything you wanted to know about the metaverse" width="970" height="500">
+              </div>
+            </a>
+            
+            
+              
+              <h3 class="mb-3 post-title">
+                City of mosques
+              </h3>
+            
+            <p>M'saken is known as the city of mosques and the Koran. At the present time, we find in it no less than 80 mosques, as we find in it a number of writers and a group of memorizers of the Qur'an. </p>
+          </div>
+          <div class="card-footer border-top-0 bg-transparent p-0">
+            <ul class="card-meta list-inline">
+              
+              
+              <li class="list-inline-item mt-2">
+               
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-6">
+        <article class="card post-card h-100 border-0 bg-transparent">
+          <div class="card-body">
+            <a class="d-block" [routerLink]="['/article' , '4']">
+              <div class="post-image position-relative">
+                <img class="w-100 h-auto rounded" src="assets/assets/images/blog/blog4.jpg" alt="How to hire a developer straight out of bootcamp — without getting burned" width="970" height="500">
+              </div>
+            </a>
+           
+            
+              <h3 class="mb-3 post-title">
+                Historical sites
+              </h3>
+          
+            <p>Middle Mosque, is the first mosque established in the town by the founders of the city of Masaken during the late first half of the 8th century AH (14 AD). It is located among the five palaces that make up the town of M'saken. 
+            </p>
+          </div>
+          <div class="card-footer border-top-0 bg-transparent p-0">
+            <ul class="card-meta list-inline">
+            
+        
+              <li class="list-inline-item mt-2">
+                
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+   
+   
+      
+    </div>
+
+
+  </div>
